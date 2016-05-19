@@ -50,44 +50,61 @@ table {
 	border-spacing: 0;
 }
 
+
+
 /*vashon waves begins*/
+
+
 body, main, header, section, footer { margin: 0 auto; }
 header, section, footer { width: 100% }
 header, section { padding-bottom: 10px;	}
 
 p { padding: 4px 8px 2px 2px; }
+a { color:#3870C3; }
 
-body { background: #abcde9; font: normal normal 18px/120% sans-serif;  
+body { 
 
+background: #fff;
+background-size: contain;  
+font: normal normal 18px/120% sans-serif;  
+color:#273237;
 
-
- }
+}
 
 main { 
-
-	width: 80%; max-width: 800px;
-
+width: 80%; max-width: 800px;
 
 }
 
 header {
 	width: 	100%;
 	height: 300px;
-	padding-bottom: 10px;
 
-	background: transparent url(assets/VWaves-Image-Final.jpg) center center no-repeat;
+	background: #AE5C34 url(assets/VWaves-Image-Final.jpg) 0% 20% no-repeat;
 	background-size: cover;
 
  }
 
-section { padding-bottom: 10px;	 }
+section { 
+	padding: 10px 0px;
+	background: #fff;	 
+}
+
+section p {  max-width: 600px; }
+
+.logo {
+	height: 150px;
+	background: transparent url(assets/logo-VWaves-tBG-200x180.png) center center no-repeat;
+    background-size: 120px; 
+    text-align: center;
+}
 
 
 footer { 
 			height: 200px; 
-			border-top: 1px solid #66c8c9; 
+			border-top: 2px solid #66c8c9; 
 			text-align: right;
-	background: transparent url(assets/logo-VWaves-tBG-200x180.png) left center no-repeat;
-    background-size: 150px; }
+
+}
 
 footer p { font-size: 12px;  }
